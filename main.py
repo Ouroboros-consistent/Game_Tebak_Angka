@@ -1,7 +1,7 @@
 import random
 user = 0
 end_msg = "SIKIL ISU (CUPU)"
-jawaban = random.randint(1, 10)
+jawaban = random.randint(1, 100)
 i = 0
 
 print("""

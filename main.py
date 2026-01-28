@@ -6,7 +6,7 @@ i = 0
 
 print("""
       SELAMAT DATANG DI GAME TEBAK ANGKA!!
-      HMM AK PILIH ANGKA DIANTARA 1 SAMPAI 10 
+      HMM AK PILIH ANGKA DIANTARA 1 SAMPAI 100 
       
       Pilih mode:
       1.MUUDDAH (10 Kali Percobaan)
@@ -34,7 +34,6 @@ while i < percobaan:
     elif jawaban == user :
         end_msg = "KAMU MENANG!!"
         break
-
 
 print(end_msg)
 print(f"PERCOBAAN: {i}")
